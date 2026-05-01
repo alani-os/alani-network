@@ -1,0 +1,18 @@
+[package]
+name = "alani-network"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+publish = false
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+
+[package.metadata.alani]
+tier = "Post-MVK boundary"
+owner = "Networking team"
+architectural_dependencies = ["alani-abi", "alani-devices", "alani-protocol", "alani-policy", "alani-observability"]
+aliases = []
